@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6, p{
 .title{
     font-size:24px;
     max-width: 700px;
+    font-weight:bold;
 }
 
 .para{
@@ -265,12 +266,16 @@ textarea:focus, input:focus{
 
 .steps__text{
     width:50%;
+    padding-left:30px;
 }
 
 .steps__image{
     width:50%;
 }
 
+.steps__image--png{
+    width:100%;
+}
 
 .steps__list{
     display:flex;
@@ -283,7 +288,7 @@ textarea:focus, input:focus{
 }
 
 .steps__list--text-head{
-    font-weight: bold;
+    font-weight: 500;
     font-size:24px;
 }
 
@@ -298,7 +303,7 @@ textarea:focus, input:focus{
 .steps__list--text{
     display:flex;
     flex-direction: column;
-    padding: 0 24px;
+    padding: 0 12px;
 }
 
 /* VALUES */
@@ -319,6 +324,22 @@ textarea:focus, input:focus{
 .values__list--title{
     font-weight: bold;
     font-size: 24px;
+    display:flex;
+    align-items: center;
+}
+
+.professionalism-image{
+    border-radius:9999px;
+    padding:8px 12px;
+    background-color: lightcoral;
+    margin-right:16px;
+}
+
+.dollar-image{
+    border-radius:9999px;
+    padding:8px 18px;
+    background-color: lightgreen;
+    margin-right:16px;
 }
 
 .values__list--para{
