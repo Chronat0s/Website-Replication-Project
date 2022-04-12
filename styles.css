@@ -492,6 +492,7 @@ textarea:focus, input:focus{
 
 .personal:hover{
     transform: translateX(1px) translateY(-1px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
 }
 
 .enterprise{
@@ -503,6 +504,7 @@ textarea:focus, input:focus{
 
 .enterprise:hover{
     transform: translateX(1px) translateY(-1px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
 }
 
 .business{
@@ -516,4 +518,5 @@ textarea:focus, input:focus{
     background-color: white;
     color: #6415FF;
     transform: translateX(1px) translateY(-1px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
 }
